@@ -2,4 +2,39 @@
 
 /* 回答はここに書いてね */
 
+
+.clearfix::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.dodai{
+  margin: 0 auto;
+  width: 900px;
+  padding: 20px;
+  background-color: #eff3f4; 
+  box-sizing: border-box;
+}
+
+.bluebox{
+  width: 230px;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: #3274ae;
+  float: left;
+}
+
+.textbox{
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  border: 10px solid #022336;
+  background-color: #eaf4ff;
+}
+
+.dodai .bluebox:first-child{
+margin-left: 0;
+}
+
 /* 回答はここに書いてね */
