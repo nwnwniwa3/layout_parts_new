@@ -2,4 +2,48 @@
 
 /* 回答はここに書いてね */
 
+.clearfix{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.dodai{
+  width: 900px;
+  margin-left: 20px 0px;
+  background-color: #eff3f4;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.umi_box{
+  word-break: break-all;
+}
+
+.umi_gazou{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.umi_text{
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.ohana_box{
+  word-break: break-all;  
+}
+
+.ohana_gazou{
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.ohana_text{
+  font-size: 18px;
+  line-height: 22px;
+}
+
 /* 回答はここに書いてね */
