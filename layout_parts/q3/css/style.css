@@ -2,4 +2,44 @@
 
 /* 回答はここに書いてね */
 
+
+.clearfix::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.daimoku{
+  margin: 0 auto;
+  table-layout: fixed;
+  width: 100%;
+  border: solid 1px #dedede;
+}
+
+
+.daimoku th{
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 10px;
+  border: solid 1px #dedede;
+}
+
+.daimoku td{
+  border: solid 1px #dedede;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.daimoku tbody tr:nth-child(even){
+  background-color: #ecf1f2;
+}
+
+.daimoku tbody tr:last-child{
+  border-top: dashed #000 2px;
+}
+
 /* 回答はここに書いてね */
