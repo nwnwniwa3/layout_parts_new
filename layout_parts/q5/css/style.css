@@ -2,4 +2,138 @@
 
 /* 回答はここに書いてね */
 
+.q5{
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+  background-color: #ecf1f2;
+  position: relative;
+}
+
+.nine{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  line-height: 100px;
+  width: 100px;
+  background-color: #2b69a3;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.eight{
+  line-height: 100px;
+  width: 100px;
+  background-color: #de70cf;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+}
+
+.eight::after{
+  width: 20px;
+  height: 20px;
+  background-color:  #ffefd3;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  content: "";
+}
+
+.five{
+  line-height: 100px;
+  width: 100px;
+  background-color: #9fd6d2;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 40px;
+  left: 200px;
+  z-index: 5;
+}
+
+.one{
+  line-height: 100px;
+  width: 100px;
+  background-color: #ffefd3;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  z-index: 1;
+}
+
+.seven{
+  line-height: 100px;
+  width: 100px;
+  background-color: #deae70;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 200px;
+  left: 40px;
+  z-index: 7;
+}
+
+.four{
+  line-height: 100px;
+  width: 100px;
+  background-color: #8b7a5e;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 120px;
+  right: 120px;
+  z-index: 4;
+}
+
+.six{
+  line-height: 100px;
+  width: 100px;
+  background-color: #fffee4;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 120px;
+  left: 120px;
+  z-index: 6;
+}
+
+.two{
+  line-height: 100px;
+  width: 100px;
+  background-color: #7084de;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 120px;
+  right: 120px;
+  z-index: 2;
+}
+
+.three{
+  line-height: 100px;
+  width: 100px;
+  background-color: #d0ecea;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 200px;
+  right: 40px;
+  z-index: 3;
+}
+
 /* 回答はここに書いてね */
